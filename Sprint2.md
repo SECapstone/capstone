@@ -5,7 +5,7 @@
 [Sprint 1](Sprint1.md) built a query engine to answer queries about UBC course sections. This deliverable will extend the input data to include data about the physical spaces where classes are held on campus. Also, the built query language was fairly simple, as you could not construct queries that would let you aggregate and compute values on the results of queries. In other words, the query engine returned data on a section-by-section basis.
 This deliverable will expand the query engine  to enable result computation (e.g., to figure out the average for a _course_ or figure out the number of seats for a _building_). 
 
-This deliverable will extend your d1 solution so you must continue to work with the same partner using the same repository. You will not have to hand anything in. The deliverble is woth 25% of your final capstone grade. The ability to start on d3 will unlock once you achieve 60% or more on d2.
+This deliverable will extend your d1 solution so you must continue to work with the same partner using the same repository. You will not have to hand anything in, though you will need to complete the open response assessment on the edX platform to receive your final deliverable grade. The deliverable is worth 25% of your final capstone grade. The ability to start on d3 will unlock once you achieve 60% or more on d2.
 
  
 ## Dataset
