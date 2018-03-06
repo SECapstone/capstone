@@ -10,7 +10,7 @@ In this deliverable you will be reading a specification and writing a set of tes
 
 ## Getting the starter code
 
-You need a GitHub account to perform all of the deliverables in the Capstone course. We will provision your repositories for you. To get started, pleaes visit the [SDMM Portal](https://sdmm.cs.ubc.ca) to confirm your GitHub account name. Once you are logged into that system, you can press the `Provision d0 Repository` button to get your repo all setup for you. We also have some resources available to you if you want some guidance for the tech stack for your machine; these are detailed in the [setup guide](../resources/setup.md) (also found in the README of your provisioned repo).
+You need a GitHub account to perform all of the deliverables in the Capstone course. We will provision your repositories for you. To get started, please visit the [SDMM Portal](https://sdmm.cs.ubc.ca) to confirm your GitHub account name. Once you are logged into that system, you can press the `Provision d0 Repository` button to get your repo all setup for you. We also have some resources available to you if you want some guidance for the tech stack for your machine; these are detailed in the [setup guide](../resources/setup.md) (also found in the README of your provisioned repo).
 
 Once your repo has been created, you'll receive an email with a link to clone your repo. For this course, you will be using Git to manage your code. A description of how to use Git is given in our brief [Git Tutorial](../resources/git.md).
 
@@ -42,7 +42,7 @@ As you add more valid JSON files to `files/queries` you'll see that the number o
 
 ## Getting your grade
 
-This will be an individual deliverable (though you have the option to work with one partner for future deliverables). It is worth 25% of your final grade. We will run [MOSS](https://theory.stanford.edu/~aiken/moss/) on all submissions so please make sure your work is your own. Your project is automatically graded every time you request grading via the `@ubcbot` (and it responds). Your grade will be the maximum grade you received from all `@ubcbot` executions. Please remember, you will only be able to request to see your grade once every 12 hours if you are a verified learner and onceevery 60 hours if you are a non-verified learner. Refer to [AutoTest.md](AutoTest.md) for additional details.
+This will be an individual deliverable (though you have the option to work with one partner for future deliverables). It is worth 25% of your final grade. We will run [MOSS](https://theory.stanford.edu/~aiken/moss/) on all submissions so please make sure your work is your own. Your project is automatically graded every time you request grading via the `@ubcbot` (and it responds), however, you must complete the open response assessment on the edX platform to receive your final grade for each deliverable. Your grade will be based on the maximum grade you received from all `@ubcbot` executions. Please remember, you will only be able to request to see your grade once every 12 hours if you are a verified learner and once every 60 hours if you are an audit learner. Refer to [AutoTest.md](AutoTest.md) for additional details.
 
 ## Resources
 
