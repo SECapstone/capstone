@@ -32,7 +32,7 @@ Learning how to write effective test cases takes time and practice. It is best t
 
 ### Submitting to AutoTest
 
-You will be able to submit your assignment for validation against the private test suite only once every 12 hours. The private suite will return limited information about the failures it encounters. Since this suite is rate limited, it is highly recommended you extend your project test suite to make your code as robust as possible before testing it against the private suite. There is no downside for submitting your deliverable to the private suite though, so you should make sure you do it at least once.
+Verified learners will be able to submit your assignment for validation against the private test suite only once every 12 hours, and audit learners will be able to submit once every 60 hours. The private suite will return limited information about the failures it encounters. Since this suite is rate limited, it is highly recommended you extend your project test suite to make your code as robust as possible before testing it against the private suite. There is no downside for submitting your deliverable to the private suite though, so you should make sure you do it at least once.
 
 AutoTest is invoked using a bot on GitHub. If you make a ```@ubcbot``` comment on a commit in GitHub the bot will be invoked. Test results will be reported back to the same comment when the test is complete. Some notes to keep in mind:
 
@@ -44,14 +44,14 @@ AutoTest is invoked using a bot on GitHub. If you make a ```@ubcbot``` comment o
 
 * If a test times out it will be 'skipped'. Your pass rate will be calculated as: ```pass / (pass + skip + fail)```. To be safe about not hitting this timeout, try and ensure no individual test takes more than 5 seconds to run locally in your personal test suite.
 
-We will monitor test suite executions to ensure that our tests are correct; if we encounter any concerns problem we will post to the class forum.
+We will monitor test suite executions to ensure that our tests are correct; if we encounter any concerns, we will post to the edX discussion boards.
 
 ### AutoTest tasks
 
 1. AutoTest first tries to build your code. If this fails, it will notify you via your GitHub commit.
 1. If the code compiles, it then runs your own unit test suite. <!-- For any test that fails, AutoTest will return the standard output from your tests. This is extremely helpful to diagnose problems that work on your own development machine but not the AutoTest server.--> Using your own tests is the best way to diagnose your own code, so this remains the best way to validate the quality of your solution.
 1. While running your tests, we also collect coverage information about how your tests cover your solution. A coverage summary is included in your output as well.
-1. Finally, AutoTest runs the private test suite against your code. Only limited information about test failures is returned to you; these will not be sufficient for diagnosing your problems (for this you should rely on your own diverse set of tests). Some tests may be withheld and only run for calculating your final grade. For this reason, it is important to consider fixing the AutoTest failures that are shown as a necessary, but not sufficient, step for ensuring a high mark. An AutoTest run only counts against your 12 hour limit if it returns results at this step of the process.
+1. Finally, AutoTest runs the private test suite against your code. Only limited information about test failures is returned to you; these will not be sufficient for diagnosing your problems (for this you should rely on your own diverse set of tests). Some tests may be withheld and only run for calculating your final grade. For this reason, it is important to consider fixing the AutoTest failures that are shown as a necessary, but not sufficient, step for ensuring a high mark. An AutoTest run only counts against your 12 hour or 60 hour limit if it returns results at this step of the process.
 
 AutoTest may fail for the following reasons:
 
@@ -63,7 +63,7 @@ AutoTest may fail for the following reasons:
 
 ### Submitting your deliverable
 
-You do not need to submit your deliverable; your current grade is always the grade associated with the last commit you called `@ubcbot` on (that was successfully responded to).
+When you decide that your deliverable is ready to be graded, you must complete the open response assessment on the edX platform for that deliverable. Audit learners will complete a self-assessment and verified learners will be staff-graded. Your grade for the deliverable will be based on the grade associated with the last commit you called `@ubcbot` on (that was successfully responded to).
 
 ---
 [![](../readings/figures/CCSA.png "Creative Commons: Attribution-ShareAlike")](https://creativecommons.org/licenses/by-sa/3.0/) [Reid Holmes](https://www.cs.ubc.ca/~rtholmes/)
