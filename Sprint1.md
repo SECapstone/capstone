@@ -12,7 +12,7 @@ You are responsible for the software design and implementation. You cannot use a
 
 This data has been obtained from UBC PAIR and has not been modified in any way. The data is provided as a zip file: inside of the zip you will find a file for each of the courses offered at UBC. Each of those file is a comma-separated values (CSV) file  containing the information about each offering of the course.
 
-The dataset zip file can be found here: [courses.zip](courses.zip)
+The dataset zip file can be found here: [sdmm.courses.1.0.zip](sdmm.courses.1.0.zip)
 
 **Checking the validity of the dataset**
 
