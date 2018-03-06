@@ -12,7 +12,7 @@ This deliverable will extend your d1 solution so you must continue to work with 
 
 This data has been obtained from the UBC [Building and classrooms](http://students.ubc.ca/campus/discover/buildings-and-classrooms) listing. The data is provided as a zip file: inside of the zip you will find ```index.xml``` which specifies each building on campus. The links in the `index.xml` link to files also in the zip containing details about each building and its rooms in XML format. 
 
-The dataset file can be found here [rooms.zip](https://github.com/secapstone/capstone/rooms.zip).
+The dataset file can be found here [sdmm.rooms.1.0.zip](sdmm.rooms.1.0.zip).
 
 ### Checking the validity of the dataset
 
