@@ -42,7 +42,7 @@ As you add more valid JSON files to `files/queries` you'll see that the number o
 
 ## Getting your grade
 
-This will be an individual deliverable (the only one in the project). It is worth 25% of your final grade. We will run [MOSS](https://theory.stanford.edu/~aiken/moss/) on all submissions so please make sure your work is your own. Your project is automatically graded every time you request grading via the `@ubcbot` (and it responds). Your grade will be the maximum grade you received from all `@ubcbot` executions. Please remember, you will only be able to request to see your grade once every 12h hours if you are a verified learner and every 60 hours if you are a non-verified learner. Refer to [AutoTest.md](AutoTest.md) for additional details.
+This will be an individual deliverable (though you have the option to work with one partner for future deliverables). It is worth 25% of your final grade. We will run [MOSS](https://theory.stanford.edu/~aiken/moss/) on all submissions so please make sure your work is your own. Your project is automatically graded every time you request grading via the `@ubcbot` (and it responds). Your grade will be the maximum grade you received from all `@ubcbot` executions. Please remember, you will only be able to request to see your grade once every 12 hours if you are a verified learner and onceevery 60 hours if you are a non-verified learner. Refer to [AutoTest.md](AutoTest.md) for additional details.
 
 ## Resources
 
