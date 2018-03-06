@@ -5,13 +5,13 @@
 
 In this deliverable you will complement your backend with a Web server and a frontend UI such that your software can be deployed and used as a Web application. Just as is common practice in Web development, you will be given a boilerplate UI implementation (consider us the "designers"). Most of the functionality has been removed from the sources and it will be your job to hook it all up with your Web server implementation. 
 
-This deliverable will extend your solutions for D1 and D2 so you must continue to work with the same partner using the same repository. D3 is worth 10% of your final grade. You will not have to hand anything in; we will automatically analyze your repo on every push between when the deliverable is released and the due date [specified here](../README.md#project-sprint-schedule).
+This deliverable will extend your solutions for D1 and D2 so you must continue to work with the same partner using the same repository. D3 is worth 25% of your final grade, and becomes available once you have received at least 60% on D2. You will not have to hand anything in, though you will need to complete the open response assessment on the edX platform to receive your final deliverable grade.
 
 **Important notes:**
 
-* Autobot will create a pull request in your repos during the first week of this sprint. It will contain some changes to your project (boilerplate frontend and server implementations) to transform your software into a Web app. It is a very good idea to carefully look at this pull request and what Autobot wants to merge into your projects. However, please do not merge the pull request before the final D2 deadline as it may break your coverage scores.
+* Autobot will create a pull request in your repos during the beginning of this sprint. It will contain some changes to your project (boilerplate frontend and server implementations) to transform your software into a Web app. It is a very good idea to carefully look at this pull request and what Autobot wants to merge into your projects. However, please do not merge the pull request before the final D2 submission as it may break your coverage scores.
 * This spec should be considered a high level outline for this deliverable because it would be very easy to get lost in the details. While the pull request from Autobot will make things more clear, it is also more important than ever to attend the in-class deliverable tutorial on March 8 in which we will go through the deliverable step by step.
-* There may be more pull requests from Autobot during this deliverable because we may need to change things on the go. Please keep an open eye on Piazza and merge all pull requests sooner rather than later to avoid conflicts.
+* There may be more pull requests from Autobot during this deliverable because we may need to change things on the go. Please keep an open eye on the discussion boards and merge all pull requests sooner rather than later to avoid conflicts.
 
 
 ## Web Server
@@ -144,10 +144,6 @@ There is no best way to get started, but a few hints may help you:
 * Carefully look at the bootstrap code and simply run the Web app with only the bootstrap sources. If this spec looks intimidating to you, the actual bootstrap sources might enlighten you how everything fits together.
 
 Good luck and we sincerely hope you'll also have some fun implementing this deliverable!
-
-## Contribution statement
-
-A survey will be required to detail your contribution to your group's project. This will involve a [mandatory survey](https://github.com/ubccpsc/310/tree/2018jan/README.md#participation). Failure to submit the survey by the final deadline will result in a grade of 0 for the deliverable (for the individual who did not submit it, not the whole group).
 
 ## Assessment
 
