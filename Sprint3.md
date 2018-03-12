@@ -7,13 +7,6 @@ In this deliverable you will complement your backend with a Web server and a fro
 
 This deliverable will extend your solutions for D1 and D2 so you must continue to work with the same partner using the same repository. D3 is worth 25% of your final grade, and becomes available once you have received at least 60% on D2. You will not have to hand anything in, though you will need to complete the open response assessment on the edX platform to receive your final deliverable grade.
 
-**Important notes:**
-
-* Autobot will create a pull request in your repos during the beginning of this sprint. It will contain some changes to your project (boilerplate frontend and server implementations) to transform your software into a Web app. It is a very good idea to carefully look at this pull request and what Autobot wants to merge into your projects. However, please do not merge the pull request before the final D2 submission as it may break your coverage scores.
-* This spec should be considered a high level outline for this deliverable because it would be very easy to get lost in the details. While the pull request from Autobot will make things more clear, it is also more important than ever to attend the in-class deliverable tutorial on March 8 in which we will go through the deliverable step by step.
-* There may be more pull requests from Autobot during this deliverable because we may need to change things on the go. Please keep an open eye on the discussion boards and merge all pull requests sooner rather than later to avoid conflicts.
-
-
 ## Web Server
 
 ### Bootstrap code
@@ -106,6 +99,7 @@ There are a few **important notes** on ```CampusExplorer.buildQuery```. Please c
 * If no conditions are specified, the query will have no conditions.
 * If only one condition is specified, no logic connector (and/or) should be used but only the single condition.
 * The order of the keys in the order section is ignored and will not be tested by Autobot.
+* Please always use D2 syntax in the order section. If the `Descending` checkbox is not checked the default `Ascending` should be used.
 
 **Important note:** usage of any library not native to the browser is strictly prohibited in the frontend part of this deliverable. Please stick to the global objects ```CampusExplorer```, ```document``` and ```XMLHttpRequest``` which are the only ones required. Autobot will fail if you violate this requirement.
 
