@@ -365,7 +365,7 @@ export interface IInsightFacade {
 
 ## Testing
 
-The best way to test your system is via your own unit test suite. You can write these unit tests by following the examples in ```test/``` and running them with ```yarn test```. This will be the quickest and easiest way to ensure your system is behaving correctly and to make sure regressions are not introduced as you proceed further in the project. We are currently also providing a [UI](http://skaha.cs.ubc.ca:11315/) for our solution for this deliverable so you can see what the expected values should be for the queries you are trying for your query.
+The best way to test your system is via your own unit test suite. You can write these unit tests by following the examples in ```test/``` and running them with ```yarn test```. This will be the quickest and easiest way to ensure your system is behaving correctly and to make sure regressions are not introduced as you proceed further in the project. We are currently also providing a [UI](https://sdmm.cs.ubc.ca/ui/) for our solution for this deliverable so you can see what the expected values should be for the queries you are trying for your query.
 
 To ensure your code conforms with the API our marking suite expects you can run your code against AutoTest. You will **not** have source-level access this suite. For verified learners, you will be able to request to run it against your implementation every 12 hours by invoking the ```@ubcbot``` Github bot, while audit learners may do so every 60 hours; full details will be available in the [AutoTest](AutoTest.md) documentation.
 
