@@ -20,7 +20,7 @@ A **valid** dataset:
 - Has to be a valid zip file; this zip will contain many files under a folder called `courses/`. 
 - Valid courses will always be in CSV format.
 - Each CSV file represents a course and can contain zero or more course sections. 
-- A valid dataset has to contain **at least one valid course section** that meets the requirements above.
+- A valid dataset has to contain **at least one valid course section**, and meets the requirements above.
 
 **Reading and Parsing the Dataset**
 
