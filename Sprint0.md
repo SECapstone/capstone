@@ -44,10 +44,12 @@ As you add more valid JSON files to `files/queries` you'll see that the number o
 
 This will be an individual deliverable (though you have the option to work with one partner for future deliverables). It is worth 25% of your final grade. We will run [MOSS](https://theory.stanford.edu/~aiken/moss/) on all submissions so please make sure your work is your own. Your project is automatically graded every time you request grading via the `@ubcbot` (and it responds), however, you must complete the open response assessment on the edX platform to receive your final grade for each deliverable. Your grade will be based on the maximum grade you received from all `@ubcbot` executions. Please remember, you will only be able to request to see your grade once every 12 hours if you are a verified learner and once every 60 hours if you are an audit learner. Refer to [AutoTest.md](AutoTest.md) for additional details.
 
+<!--
 ## Resources
 
 - [Git Tutorial](../resources/git.md)
 - [TypeScript/JavaScript Tutorial](../resources/typescript.md)
 - [Asynchronous Development Tutorial](../resources/async.md)
 - [Promises Tutorial](../resources/promises.md)
+-->
 
