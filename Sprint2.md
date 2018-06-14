@@ -179,7 +179,7 @@ If the ```id``` sent by the user is ```rooms```, then the queries you will run w
 * **rooms_lon**: ```number```; The longitude of the building, as described under finding buildings' geolocation.
 * **rooms_seats**: ```number```; The number of seats in the room.
 * **rooms_type**: ```string```; The room type (e.g., "Small Group").
-* **rooms_furniture**: ```string```; The room type (e.g., "Classroom-Movable Tables & Chairs").
+* **rooms_furniture**: ```string```; The type of desks, chairs, furniture in the room (e.g., "Classroom-Movable Tables & Chairs").
 * **rooms_href**: ```string```; The link to full details online (e.g., "http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/DMP-201").
 
 We are also adding one field to the ```courses``` dataset: 
