@@ -37,7 +37,7 @@ There is a provided package called ```parse5``` that you should use to parse the
 In addition to parsing the XML files, you must encode buildings' addresses to a latitude/longitude pair. This is usually performed using online web services. To avoid problems with our spamming different geolocation providers we will be providing a web service for you to use for this purpose. To obtain the geolocation of an address, you must send a GET request (using the ```http``` module) to:
 
 ```
-http://sdmm.cs.ubc.ca:11316/api/v1/team<YOUR-TEAM-NUMBER>/<ADDRESS>
+http://sdmm.cs.ubc.ca/geolocation/api/v1/team_<YOUR-TEAM-NUMBER>/<ADDRESS>
 ```
 
 Where ```ADDRESS``` should be the URL-encoded version of an address (e.g., ```6245 Agronomy Road V6T 1Z4``` should be represented as ```6245%20Agronomy%20Road%20V6T%201Z4```). Addresses should be given _exactly_ as they appear in the data files, or ```404``` will be returned.
