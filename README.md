@@ -16,7 +16,7 @@ Your partner selection is ***extremely*** important; be sure to make this choice
 
 ## Assessment
 
-Each of the four sprints are worth 25% of the final project grade. Since the project is self-paced, you require a 60% grade on a sprint to move to the next. An overall grade of 60% is required to pass the course.
+Each of the four sprints are worth 25% of the final project grade. Since the project is self-paced, you must achieve a threshold grade on a sprint to move to the next. The threshold is displayed in the course portal used to provision your repository.
 
 ### Sprint 0
 
