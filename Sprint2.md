@@ -112,10 +112,11 @@ S_CRITERIA ::= S_KEY + S_OP + STRING
 NUMBER   ::= [0-9] + (.)? + [0-9]
 STRING   ::= '"' + [^*"]* + '"' // any string without * or " in it, enclosed by double quotation marks
 
-RESERVED ::= KEYWORD || M_OP || S_OP || AGGREGATOR || KIND
+RESERVED ::= KEYWORD || M_OP || S_OP || AGGREGATOR
 KEYWORD  ::= 'in' || 'dataset' || 'find' || 'all' || 'show' || 'and' || 'or' || 'sort' || 'by' || 'entries' || 'grouped' || 'where' || 'is' || 'the' || 'of' || 'whose'
 M_OP     ::= 'is ' + ('not ' +)? ('greater than ' || 'less than ' || 'equal to ') + NUMBER
 S_OP     ::= (('is ' + ('not ' +)?) || (('includes ' || 'does not include ') || ('begins' || 'does not begin' || 'ends' || 'does not end' + ' with '))) + STRING
+
 KIND     ::= 'courses' || 'rooms'
 
 INPUT    ::= string of one or more characters. Cannot contain spaces, underscores or equal to RESERVED strings
