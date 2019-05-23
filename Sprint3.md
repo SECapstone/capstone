@@ -105,6 +105,16 @@ There are a few **important notes** on ```CampusExplorer.buildQuery```. Please c
 
 **Just to make sure:** for the frontend implementation, please only touch the files ```query-builder.js```, ```query-sender.js``` and ```query-index.js``` in your ```/frontend/public``` directory. The other parts are already implemented, hooked up and ready to go in the bootstrap sources.
 
+### User Input Considerations
+
+1. **Restricted Queries.** You may note that users of the frontend will not able able to utilise the full capabilities of your backend, like `and`/`or` nesting. This is the correct beahaviour.
+
+2. **Explicit Wildcards.** To access query options such as `includes`, users input asterisks as wildcards when `IS` has been selected.
+* The plain text input `STRING` leads to the query excerpt `'is ' + STRING` 
+* The plain text input `'*' + STRING + '*'` leads to`'includes ' + STRING`
+* The plain text input `STRING + '*'` leads to `'begins with ' + STRING`
+* The plain text input `'*' + STRING` leads to `'ends with ' + STRING`
+
 ### Testing
 
 We will use the test runner [```Karma```](https://karma-runner.github.io/2.0/index.html) for frontend testing. ```package.json``` will change respectively to accomodate the required dependencies. Karma works in a way that it will run your tests in a browser environment. There will be a new command ```yarn test:frontend``` in your project that will run the frontend test suites with Karma.
