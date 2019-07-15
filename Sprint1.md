@@ -46,13 +46,13 @@ CRITERIA   ::= M_CRITERIA || S_CRITERIA
 M_CRITERIA ::= M_KEY + M_OP + NUMBER
 S_CRITERIA ::= S_KEY + S_OP + STRING
 
-NUMBER   ::= (-)? + [0-9] + (.)? + [0-9]
+NUMBER   ::= ('-')? + [0-9] (+ [0-9])* + ('.' + [0-9] (+ [0-9])*)?
 STRING   ::= '"' + [^*"]* + '"' // any string without * or " in it, enclosed by double quotation marks
 
-RESERVED ::= KEYWORD || M_OP || S_OP || AGGREGATOR
+RESERVED ::= KEYWORD || M_OP || S_OP
 KEYWORD  ::= 'In' || 'dataset' || 'find' || 'all' || 'show' || 'and' || 'or' || 'sort' || 'by' || 'entries' || 'is' || 'the' || 'of' || 'whose'
-M_OP     ::= 'is ' + ('not ' +)? ('greater than ' || 'less than ' || 'equal to ') + NUMBER
-S_OP     ::= (('is ' + ('not ' +)?) || (('includes ' || 'does not include ') || ('begins' || 'does not begin' || 'ends' || 'does not end' + ' with '))) + STRING
+M_OP     ::= 'is ' + ('not ' +)? ('greater than ' || 'less than ' || 'equal to ')
+S_OP     ::= ('is ' + ('not ' +)?) || (('includes ' || 'does not include ') || ('begins' || 'does not begin' || 'ends' || 'does not end' + ' with '))
 
 KIND     ::= 'courses'
 
