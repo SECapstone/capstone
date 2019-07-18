@@ -37,7 +37,7 @@ The goal of the deliverable is to build the backend to reply to query about the 
 *Note: this [EBNF](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_Form) is not complete and will be extended in future deliverables*
 ```
 QUERY   ::= DATASET + ', ' + FILTER + '; ' + DISPLAY(+ '; ' + ORDER)? + '.'
-DATASET ::= 'in ' + KIND + ' dataset ' + INPUT
+DATASET ::= 'In ' + KIND + ' dataset ' + INPUT
 FILTER  ::= 'find all entries' || 'find entries whose ' + (CRITERIA || (CRITERIA + ((' and ' || ' or ') + CRITERIA)*)
 DISPLAY ::= 'show ' + KEY (+ MORE_KEYS)?
 ORDER   ::= 'sort in ascending order by ' + KEY
@@ -52,7 +52,7 @@ STRING   ::= '"' + [^*"]* + '"' // any string without * or " in it, enclosed by 
 RESERVED ::= KEYWORD || M_OP || S_OP
 KEYWORD  ::= 'In' || 'dataset' || 'find' || 'all' || 'show' || 'and' || 'or' || 'sort' || 'by' || 'entries' || 'is' || 'the' || 'of' || 'whose'
 M_OP     ::= 'is ' + ('not ' +)? ('greater than ' || 'less than ' || 'equal to ')
-S_OP     ::= ('is ' + ('not ' +)?) || (('includes ' || 'does not include ') || ('begins' || 'does not begin' || 'ends' || 'does not end' + ' with '))
+S_OP     ::= ('is ' (+ 'not ')?) || 'includes ' || 'does not include ' || (('begins' || 'does not begin' || 'ends' || 'does not end') + ' with ')
 
 KIND     ::= 'courses'
 
