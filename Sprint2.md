@@ -115,7 +115,7 @@ STRING   ::= '"' + [^*"]* + '"' // any string without * or " in it, enclosed by 
 RESERVED ::= KEYWORD || M_OP || S_OP || AGGREGATOR
 KEYWORD  ::= 'in' || 'dataset' || 'find' || 'all' || 'show' || 'and' || 'or' || 'sort' || 'by' || 'entries' || 'grouped' || 'where' || 'is' || 'the' || 'of' || 'whose'
 M_OP     ::= 'is ' + ('not ' +)? ('greater than ' || 'less than ' || 'equal to ')
-S_OP     ::= ('is ' + ('not ' +)?) || (('includes ' || 'does not include ') || ('begins' || 'does not begin' || 'ends' || 'does not end' + ' with '))
+S_OP     ::= ('is ' (+ 'not ')?) || 'includes ' || 'does not include ' || (('begins' || 'does not begin' || 'ends' || 'does not end') + ' with ')
 
 KIND     ::= 'courses' || 'rooms'
 
