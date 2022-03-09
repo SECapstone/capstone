@@ -40,7 +40,16 @@ In addition to parsing the XML files, you must encode buildings' addresses to a 
 http://sdmm.cs.ubc.ca:11316/api/v1/team_<YOUR-TEAM-NUMBER>/<ADDRESS>
 ```
 
+
 Where ```ADDRESS``` should be the URL-encoded version of an address (e.g., ```6245 Agronomy Road V6T 1Z4``` should be represented as ```6245%20Agronomy%20Road%20V6T%201Z4```). Addresses should be given _exactly_ as they appear in the data files, or ```404``` will be returned.
+
+
+An example successful GET request would be:
+```
+http://sdmm.cs.ubc.ca:11316/api/v1/team_edxubcbot/1822%20East%20Mall
+```
+for the team with the repository https://github.com/SECapstone/secap_edxubcbot .
+
 
 The response will match the following interface (either you will get ```lat``` & ```lon``` or ```error```, but never both):
 
